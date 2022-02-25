@@ -104,27 +104,17 @@ header .navigation a:hover{
   background: #0C4F60;
 }
 
+.content .image .billy {
+  max-width: 500px;
+  max-height: 500px;
+}
+
 .media-icons{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-}
+  justify-content: last baseline;
+  align-items: left;
+  margin: 20px 10px;
 
-.media-icons a{
-  position: relative;
-  color: #111;
-  font-size: 25px;
-  transition: 0.3s;
-  transition-property: transform;
-}
-
-.media-icons a:not(:last-child){
-  margin-right: 60px;
-}
-
-.media-icons a:hover{
-  transform: scale(1.5);
 }
 
 label{
@@ -136,15 +126,6 @@ label{
   display: none;
 }
 
-.circle {
-top: 0;
-position: absolute;
-Left: 0;
-width: 100%;
-height: 100%;
-background: #28c5e0;
-clip-path: circle(600px at right);
-}
 
 /* Responsive styles */
 
